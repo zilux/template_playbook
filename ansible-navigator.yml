@@ -1,0 +1,11 @@
+---
+ansible-navigator:
+
+  execution-environment:
+    # image: quay.io/ansible/creator-ee:v0.9.1
+    image: localhost/zilux:v1.0
+
+  mode: stdout
+
+  playbook-artifact:
+    enable: false
