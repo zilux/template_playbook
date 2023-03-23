@@ -9,11 +9,10 @@
     - zilux.tools.bootstrap 
 
     - role: zilux.tools.env_ansible
-      env_ansible_user: harry
+      env_ansible_user: harry   
     - zilux.tools.check
-
-
 
   post_tasks:
 
-  - debug: var=hz_facts
+  - name: just some debug
+    debug: var=hz_facts

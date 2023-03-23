@@ -1,6 +1,7 @@
-collections/requirements.yml  
 ---
 collections:
   - name: git@github.com:zilux/check_collection.git
+    type: git
+  - name: git@github.com:zilux/ziluxtools_collection.git
     type: git
 # ansible-galaxy collection install -r collections/requirements.yml
