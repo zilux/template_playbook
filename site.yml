@@ -6,10 +6,13 @@
   tasks:
 
   roles:
-    - zilux.tools.bootstrap
+    - zilux.tools.bootstrap 
+
     - role: zilux.tools.env_ansible
       env_ansible_user: harry
     - zilux.tools.check
+
+
 
   post_tasks:
 
